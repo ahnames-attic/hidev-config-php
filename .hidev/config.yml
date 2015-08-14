@@ -1,0 +1,11 @@
+package:
+    name:           hidev-config-php
+    namespace:      ahnames\hidev\config\php
+    label:          AHnamesHiDevConfigPHP
+    title:          AHnames hidev config for PHP projects
+    type:           yii2-extension
+    keywords:       ahnames, hidev, config, php
+    year:           2015
+
+require:
+    ahnames/hidev-config-php:   "*@dev"

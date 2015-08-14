@@ -1,0 +1,35 @@
+{
+    "name": "ahnames/hidev-config-php",
+    "type": "yii2-extension",
+    "description": "AHnames hidev config for PHP projects",
+    "keywords": [
+        "ahnames",
+        "hidev",
+        "config",
+        "php"
+    ],
+    "homepage": "https://github.com/ahnames/hidev-config-php",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@ahnames.com",
+        "source": "https://github.com/ahnames/hidev-config",
+        "issues": "https://github.com/ahnames/hidev-config/issues",
+        "wiki": "https://github.com/ahnames/hidev-config/wiki",
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        }    ],
+    "require": {
+        "ahnames/hidev-config": "*@dev",
+        "hiqdev/hidev-php-cs-fixer": "*@dev",
+        "hiqdev/hidev-codeception": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "hiqdev\\hidev\\config\\php\\": "src"
+        }
+    }
+}
