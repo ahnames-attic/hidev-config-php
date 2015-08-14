@@ -1,5 +1,5 @@
 AHnames hidev config for PHP projects
---------------------------------------
+-------------------------------------
 
 AHnames hidev config for PHP projects
 
