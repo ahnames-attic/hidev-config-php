@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\hidev\\config\\php\\": "src"
+            "ahnames\\hidev\\config\\php\\": "src"
         }
     }
 }
